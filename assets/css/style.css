@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #D9B9A7;
+  color: #272829;
   text-decoration: none;
 }
 
@@ -35,6 +35,25 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+
+.full-link {
+  text-decoration: none; /* Supprime le soulignement */
+  color: inherit; /* Garde la couleur du texte */
+  display: block; /* Rend toute la zone cliquable */
+}
+
+.full-link .icon-box {
+  background-color: inherit; /* Assure que la couleur de fond reste la même */
+  color: inherit; /* Évite que le texte change de couleur */
+  padding: 20px; /* Maintient l'espacement */
+  border-radius: 8px; /* Si tu avais un arrondi */
+}
+
+.full-link:hover .icon-box {
+  transform: scale(1.02); /* Effet de léger zoom au survol */
+  transition: transform 0.2s ease-in-out;
+}
+
 
 /*--------------------------------------------------------------
 # Back to top button
