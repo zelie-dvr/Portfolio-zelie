@@ -319,7 +319,7 @@ const projects = {
   ctco: {
     title: "Salon CTCO 2025",
     desc: "Création de visuels pour des supports de communication (flyers, accessoires) et préparation des fichiers pour l’impression.",
-    img: "professionnel/img-professionnel/SalonCTCO.jpg",
+    img: "professionnel/img-professionnel/SalonCTCO.webp",
     link: "professionnel/CTCO2025.html"
   }
 };
