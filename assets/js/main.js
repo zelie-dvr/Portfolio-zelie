@@ -307,7 +307,7 @@ const projects = {
   mustela: {
     title: "Motif Mustela",
     desc: "Création d’un motif pour le packaging, en lien avec l’univers doux et enfantin de la marque Mustela.",
-    img: "professionnel/img-professionnel/img37.jpg",
+    img: "professionnel/img-professionnel/img37.webp",
     link: "professionnel/motifMUSTELA.html"
   },
   proto: {
