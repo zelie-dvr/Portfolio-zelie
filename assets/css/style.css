@@ -1204,6 +1204,50 @@ section {
 }
 
 
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+  .pro-layout {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  /* MENU devient un slider horizontal */
+  .pro-list {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .pro-list ul {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+  }
+
+  .pro-list li {
+    flex: 0 0 auto;
+    border-bottom: none;
+    padding: 10px 0;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  /* Ligne active adaptée */
+  .pro-list li::after {
+    bottom: -5px;
+  }
+
+  /* PREVIEW prend toute la largeur */
+  .pro-display {
+    width: 100%;
+  }
+
+  .image-wrapper {
+    height: 300px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
